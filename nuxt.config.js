@@ -45,6 +45,12 @@ export default {
         // Doc: https://github.com/nuxt-community/dotenv-module
         '@nuxtjs/dotenv'
     ],
+    styleResources: {
+        scss: [
+            // '@/assets/colors.scss',
+            '@/assets/main.scss'
+        ]
+    },
     /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
